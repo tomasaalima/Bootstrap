@@ -148,7 +148,7 @@
     </div>
 
     <!--
-        pré
+        pre
     -->
     <div class="container">
         <h1>Multiple Code Lines</h1>
@@ -161,5 +161,705 @@
         line breaks.
         </pre>
     </div>
+
+    <!--
+        .font-weight-bold	Bold text	
+        .font-weight-bolder	Bolder text	
+        .font-italic	Italic text	
+        .font-weight-light	Light weight text	
+        .font-weight-lighter	Lighter weight text	
+        .font-weight-normal	Normal text	
+        .lead	Makes a paragraph stand out	
+        .small	Indicates smaller text (set to 80% of the size of the parent)	
+        .text-left	Indicates left-aligned text	
+        .text-*-left	Indicates left-aligned text on small, medium, large or xlarge screens	
+        .text-break	Prevents long text from breaking layout	
+        .text-center	Indicates center-aligned text	
+        .text-*-center	Indicates center-aligned text on small, medium, large or xlarge screens	
+        .text-decoration-none	Removes the underline from a link	
+        .text-right	Indicates right-aligned text	
+        .text-*-right	Indicates right-aligned text on small, medium, large or xlarge screens	
+        .text-justify	Indicates justified text	
+        .text-monospace	Monospaced text	
+        .text-nowrap	Indicates no wrap text	
+        .text-lowercase	Indicates lowercased text	
+        .text-reset	Resets the color of a text or a link (inherits the color from its parent)	
+        .text-uppercase	Indicates uppercased text	
+        .text-capitalize	Indicates capitalized text	
+        .initialism	Displays the text inside an <abbr> element in a slightly smaller font size	
+        .list-unstyled	Removes the default list-style and left margin on list items (works on both <ul> and <ol>). This class only applies to immediate children list items (to remove the default list-style from any nested lists, apply this class to any nested lists as well)	
+        .list-inline	Places all list items on a single line (used together with .list-inline-item on each <li> elements)	
+        .pre-scrollable	Makes a <pre> element scrollable
+    -->
+
+    <!--
+        cor de texto
+    -->
+    <div class="container">
+        <h2>Contextual Colors</h2>
+        <p>Use the contextual classes to provide "meaning through colors":</p>
+        <p class="text-muted">This text is muted.</p>
+        <p class="text-primary">This text is important.</p>
+        <p class="text-success">This text indicates success.</p>
+        <p class="text-info">This text represents some information.</p>
+        <p class="text-warning">This text represents a warning.</p>
+        <p class="text-danger">This text represents danger.</p>
+        <p class="text-secondary">Secondary text.</p>
+        <p class="text-dark">This text is dark grey.</p>
+        <p class="text-body">Default body color (often black).</p>
+        <p class="text-light">This text is light grey (on white background).</p>
+        <p class="text-white">This text is white (on white background).</p>
+      </div>
+
+      <!--
+        opacidade
+      -->
+      <div class="container">
+        <h2>Opacity Text Colors</h2>
+        <p>Add 50% opacity for black or white text with the .text-black-50 or .text-white-50 classes:</p>
+        <p class="text-black-50">Black text with 50% opacity on white background</p>
+        <p class="text-white-50 bg-dark">White text with 50% opacity on black background</p>
+      </div>
+
+      <!--
+        cor de fundo
+      -->
+      <div class="container">
+        <h2>Contextual Backgrounds</h2>
+        <p>Use the contextual background classes to provide "meaning through colors".</p>
+        <p>Note that you can also add a .text-* class if you want a different text color:</p>
+        <p class="bg-primary text-white">This text is important.</p>
+        <p class="bg-success text-white">This text indicates success.</p>
+        <p class="bg-info text-white">This text represents some information.</p>
+        <p class="bg-warning text-white">This text represents a warning.</p>
+        <p class="bg-danger text-white">This text represents danger.</p>
+        <p class="bg-secondary text-white">Secondary background color.</p>
+        <p class="bg-dark text-white">Dark grey background color.</p>
+        <p class="bg-light text-dark">Light grey background color.</p>
+      </div>
+
+      <!--
+        tabela basica
+      -->
+      <div class="container">
+        <h2>Basic Table</h2>
+        <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>            
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--
+        tabela zebrada
+      -->
+      <div class="container">
+        <h2>Striped Rows</h2>
+        <p>The .table-striped class adds zebra-stripes to a table:</p>            
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--
+        tabela com borda
+      -->
+      <div class="container">
+        <h2>Bordered Table</h2>
+        <p>The .table-bordered class adds borders on all sides of the table and the cells:</p>            
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--
+        tabela com efeito de hover 
+      -->
+      <div class="container">
+        <h2>Hover Rows</h2>
+        <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>            
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--
+        tabela escura
+      -->
+      <div class="container">
+        <h2>Black/Dark Table</h2>
+        <p>The .table-dark class adds a black background to the table:</p>            
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--
+        tabela sem borda
+      -->
+      <div class="container">
+        <h2>Borderless Table</h2>
+        <p>The .table-borderless class removes borders from the table:</p>            
+        <table class="table table-borderless">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--
+        .table-primary	Blue: Indicates an important action
+        .table-success	Green: Indicates a successful or positive action
+        .table-danger	Red: Indicates a dangerous or potentially negative action
+        .table-info	Light blue: Indicates a neutral informative change or action
+        .table-warning	Orange: Indicates a warning that might need attention
+        .table-active	Grey: Applies the hover color to the table row or table cell
+        .table-secondary	Grey: Indicates a slightly less important action
+        .table-light	Light grey table or table row background
+        .table-dark	Dark grey table or table row background
+      -->
+      <div class="container">
+        <h2>Contextual Classes</h2>
+        <p>Contextual classes can be used to color the table, table rows or table cells. The classes that can be used are: .table-primary, .table-success, .table-info, .table-warning, .table-danger, .table-active, .table-secondary, .table-light and .table-dark:</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Default</td>
+              <td>Defaultson</td>
+              <td>def@somemail.com</td>
+            </tr>      
+            <tr class="table-primary">
+              <td>Primary</td>
+              <td>Joe</td>
+              <td>joe@example.com</td>
+            </tr>
+            <tr class="table-success">
+              <td>Success</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr class="table-danger">
+              <td>Danger</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr class="table-info">
+              <td>Info</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+            <tr class="table-warning">
+              <td>Warning</td>
+              <td>Refs</td>
+              <td>bo@example.com</td>
+            </tr>
+            <tr class="table-active">
+              <td>Active</td>
+              <td>Activeson</td>
+              <td>act@example.com</td>
+            </tr>
+            <tr class="table-secondary">
+              <td>Secondary</td>
+              <td>Secondson</td>
+              <td>sec@example.com</td>
+            </tr>
+            <tr class="table-light">
+              <td>Light</td>
+              <td>Angie</td>
+              <td>angie@example.com</td>
+            </tr>
+            <tr class="table-dark text-dark">
+              <td>Dark</td>
+              <td>Bo</td>
+              <td>bo@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--
+        cores de cabeçalho de uma tabela
+      -->
+      <div class="container">
+        <h2>Table Head Colors</h2>
+        <p>The .thead-dark class adds a black background to table headers, and the .thead-light class adds a grey background to table headers:</p>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--
+        tabela pequena
+      -->
+      <div class="container">
+        <h2>Small Table</h2>
+        <p>The .table-sm class makes the table smaller by cutting cell padding in half:</p>
+        <table class="table table-bordered table-sm">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--
+        tabela responsiva
+
+        .table-responsive-sm	< 576px
+        .table-responsive-md	< 768px
+        .table-responsive-lg	< 992px
+        .table-responsive-xl	< 1200px
+      -->
+      <div class="container">
+        <h2>Responsive Table</h2>
+        <p>The .table-responsive class adds a scrollbar to the table when needed:</p>
+        
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Country</th>
+                <th>Sex</th>
+                <th>Example</th>
+                <th>Example</th>
+                <th>Example</th>
+                <th>Example</th>
+                <th>Example</th>
+                <th>Example</th>
+                <th>Example</th>
+                <th>Example</th>
+                <th>Example</th>
+                <th>Example</th>
+                <th>Example</th>
+                <th>Example</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Anna</td>
+                <td>Pitt</td>
+                <td>35</td>
+                <td>New York</td>
+                <td>USA</td>
+                <td>Female</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!--
+        .rounded class adds rounded corners to an image
+        .rounded-circle class shapes the image to a circle
+        .img-thumbnail class shapes the image to a thumbnail (bordered)
+        Float an image to the right with the .float-right class or to the left with .float-left
+        Center an image by adding the utility classes .mx-auto (margin:auto) and .d-block (display:block) to the image
+        The .img-fluid class applies max-width: 100%; and height: auto; to the image
+      -->
+      <div class="container">
+        <h2>Circle</h2>
+        <p>The .rounded-circle class shapes the image to a circle:</p>            
+        <img src="img.jpg" class="rounded-circle" alt="Cinque Terre" width="304" height="236"> 
+      </div>
+      <div class="container">
+        <h2>Rounded Corners</h2>
+        <p>The .rounded class adds rounded corners to an image:</p>            
+        <img src="img.jpg" class="rounded" alt="Cinque Terre" width="304" height="236"> 
+      </div>
+      <div class="container">
+        <h2>Thumbnail</h2>
+        <p>The .img-thumbnail class creates a thumbnail of the image:</p>            
+        <img src="img.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"> 
+      </div>
+
+      <div class="container">
+        <div class="jumbotron">
+          <h1>Bootstrap Tutorial</h1>      
+          <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+        </div>
+        <p>This is some text.</p>      
+        <p>This is another text.</p>      
+      </div>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1>Bootstrap Tutorial</h1>      
+          <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+        </div>
+      </div>
+
+      <!--
+        alertas
+      -->
+    <div class="container">
+        <h2>Alerts</h2>
+        <p>Alerts are created with the .alert class, followed by a contextual color classes:</p>
+        <div class="alert alert-success">
+        <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-info">
+        <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+        </div>
+        <div class="alert alert-warning">
+        <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+        </div>
+        <div class="alert alert-danger">
+        <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+        <div class="alert alert-primary">
+        <strong>Primary!</strong> Indicates an important action.
+        </div>
+        <div class="alert alert-secondary">
+        <strong>Secondary!</strong> Indicates a slightly less important action.
+        </div>
+        <div class="alert alert-dark">
+        <strong>Dark!</strong> Dark grey alert.
+        </div>
+        <div class="alert alert-light">
+        <strong>Light!</strong> Light grey alert.
+        </div>
+    </div>
+
+  <!--
+    alerta em links
+  -->
+    <div class="container">
+        <h2>Alert Links</h2>
+        <p>Add the alert-link class to any links inside the alert box to create "matching colored links".</p>
+        <div class="alert alert-success">
+        <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-info">
+        <strong>Info!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-warning">
+        <strong>Warning!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-danger">
+        <strong>Danger!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-primary">
+        <strong>Primary!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-secondary">
+        <strong>Secondary!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-dark">
+        <strong>Dark!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-light">
+        <strong>Light!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+    </div>
+
+    <!--
+        alerta desabilitável
+    -->
+    <div class="container">
+        <h2>Alerts</h2>
+        <p>The button with class="close" and data-dismiss="alert" is used to close the alert box.</p>
+        <p>The alert-dismissible class adds some extra padding to the close button.</p>
+        <div class="alert alert-success alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-info alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+        </div>
+        <div class="alert alert-warning alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+        </div>
+        <div class="alert alert-danger alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+        <div class="alert alert-primary alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Primary!</strong> Indicates an important action.
+        </div>
+        <div class="alert alert-secondary alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Secondary!</strong> Indicates a slightly less important action.
+        </div>
+        <div class="alert alert-dark alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Dark!</strong> Dark grey alert.
+        </div>
+        <div class="alert alert-light alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Light!</strong> Light grey alert.
+        </div>
+      </div>
+
+    <!--
+        alerta desabilitável com efeito fade
+    -->
+    <div class="container">
+        <h2>Animated Alerts</h2>
+        <p>The .fade and .show classes adds a fading effect when closing the alert message.</p>
+        <div class="alert alert-success alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-info alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+        </div>
+        <div class="alert alert-warning alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+        </div>
+        <div class="alert alert-danger alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+        <div class="alert alert-primary alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Primary!</strong> Indicates an important action.
+        </div>
+        <div class="alert alert-secondary alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Secondary!</strong> Indicates a slightly less important action.
+        </div>
+        <div class="alert alert-dark alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Dark!</strong> Dark grey alert.
+        </div>
+        <div class="alert alert-light alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Light!</strong> Light grey alert.
+        </div>
+      </div>
 </body>
 </html>
